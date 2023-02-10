@@ -1,7 +1,7 @@
 Write-Host "This shell script will ask you to enter two dates and automatically calculate the number of days between them for you."
 Write-Host "You may repeat calculations ad infinitum so long as you answer 'y', 'Y', 'yes', 'Yes', or 'YES' when asked whether you wish to repeat the operation."
 Write-Host "Once 'n', 'N', 'no', 'No', or 'NO' is received as a response, you may add the calculated total of all prior calculations."
-Write-Host "Use Cases:"
+Write-Host "Sample Use Cases:"
 Write-Host "(i) Determine how many days a student's FT CPT authorization entails to enter in your 'CPT Recommended' template email."
 Write-Host "(ii) Determine if student has exceeded or will exceed maximum number of total FT CPT days during processing of a CPT or OPT authorization request."
 
