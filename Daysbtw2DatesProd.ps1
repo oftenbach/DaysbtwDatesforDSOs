@@ -1,8 +1,8 @@
 <#To run this script on macOS, download then drag and drop this file into an open PowerShell window and hit 'enter' on your keyboard.#>
 
 Write-Host "This script prompts you to enter 2 dates and automatically calculates the number of days between them (inclusive of the end date)."
-Write-Host "You may repeat calculations ad infinitum so long as you enter 'y', 'Y', 'yes', 'Yes', or 'YES' when asked 'Do you wish to repeat the operation?'"
-Write-Host "When 'n', 'N', 'no', 'No', or 'NO' is entered instead, the script asks if you wish to have your prior calculations totaled."
+Write-Host "You may repeat calculations ad infinitum so long as you enter 'y', 'Y', 'yes', 'Yes', or 'YES' when asked 'Do you wish to repeat this operation for a new date range? (Y/N)'"
+Write-Host "When 'n', 'N', 'no', 'No', or 'NO' is entered instead, the script asks if you wish to have your previous calculations for the current session totaled. You can choose to start a new session of calculations or shut down the program afterwards."
 Write-Host "Sample Use Cases:"
 Write-Host "(i) Determine how many days a student's FT CPT (Full-Time Curricular Practical Training) authorization entails to enter in your 'CPT Recommended' template email."
 Write-Host "(ii) Determine if student has exceeded or will exceed, respectively, maximum number of total FT CPT days permitted without losing all OPT eligibility at current degree level during processing of an OPT or CPT request."
