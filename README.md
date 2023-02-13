@@ -1,4 +1,4 @@
-# Baysbtw2Dates
+# Baysbtw2DatesforDSOs
 ## Days between 2 Dates: A Calculator Tool for Designated School Officials
 A lightweight, essentials-only, platform-agnostic date range calculator designed specifically with professionals working in the international student and/or scholar services and international education fields that frequently interact with the Student and Exchange Visitor Program's SEVIS platform in mind. This tool is provided in 2 flavors--PowerShell and Python--and do exactly the same things. Choose whichever environment suits you. 
 #### Daysbtw2DatesProd.ps1 (PowerShell Version)
