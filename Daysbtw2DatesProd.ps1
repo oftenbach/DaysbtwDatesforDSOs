@@ -1,5 +1,3 @@
-<#To run Days Between 2 Dates on macOS, download then drag and drop this file into an open PowerShell window and hit 'enter' on your keyboard.#>
-
 Write-Host "This script prompts you to enter 2 dates and automatically calculates the number of days between them (inclusive of the end date)."
 Write-Host "You may repeat calculations ad infinitum so long as you enter 'y', 'Y', 'yes', 'Yes', or 'YES' when asked 'Do you wish to repeat this operation for a new date range? (Y/N)'"
 Write-Host "When 'n', 'N', 'no', 'No', or 'NO' is entered instead, the script asks if you wish to have your previous calculations for the current session totaled." 

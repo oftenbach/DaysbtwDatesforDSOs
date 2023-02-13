@@ -1,7 +1,3 @@
-#After downloading this file, open a terminal window at the containing folder, then enter the command 'python3 Daysbtw2DatesProd.py' to run Days Between 2 Dates.
-
-#ask user to enter a start date in format m/d/yyyy. then, ask user to enter an end date in format m/d/yyyy. Finally, find the sum od the number of days between the start date and end date entered with 1 and display the answer to the user.
-
 print("This script prompts you to enter 2 dates and automatically calculates the number of days between them (inclusive of the end date).")
 print("You may repeat calculations ad infinitum so long as you enter 'y', 'Y', 'yes', 'Yes', or 'YES' when asked 'Do you wish to repeat this operation for a new date range? (Y/N)'")
 print("When 'n', 'N', 'no', 'No', or 'NO' is entered instead, the script asks if you wish to have your previous calculations for the current session totaled.")
@@ -17,13 +13,10 @@ print("--------CALCULATE # OF DAYS BTW ANY DATE RANGE---------")
 start_date = input("Please enter a start date in the format m/d/yyyy: ") 
 #convert start date to datetime object 
 start_date = datetime.datetime.strptime(start_date, "%m/%d/%Y") 
-#ask user to enter end date 
 end_date = input("Please enter an end date in the format m/d/yyyy: ") 
 #convert end date to datetime object 
 end_date = datetime.datetime.strptime(end_date, "%m/%d/%Y")  
-#calculate the difference between the two dates and add 1 day  
-difference = (end_date - start_date).days + 1  
-#display the result to user 
+difference = (end_date - start_date).days + 1
 print("The number of days between your two dates is", difference)
 total_sum += difference
 repeat = input("Do you wish to repeat this operation for a new date range? (Y/N): ").lower()
