@@ -1,8 +1,0 @@
-{
-    "diffEditor.codeLens": true,
-    "editor.suggest.preview": true,
-    "codegpt.apiKey": "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",
-    "chatgpt.chromiumPath": "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
-    "chatgpt.gpt3.apiKey": "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",
-    "chatgpt.gpt3.organization": "org-q1rgz2jQQOAwAUnerORmPBSr"
-}
