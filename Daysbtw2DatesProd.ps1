@@ -1,6 +1,6 @@
 Write-Host "This script prompts you to enter 2 dates and automatically calculates the number of days between them (inclusive of the end date)."
-Write-Host "You may repeat calculations ad infinitum so long as you enter 'y', 'Y', 'yes', 'Yes', or 'YES' when asked 'Do you wish to repeat this operation for a new date range? (Y/N)'"
-Write-Host "When 'n', 'N', 'no', 'No', or 'NO' is entered instead, the script asks if you wish to have your previous calculations for the current session totaled." 
+Write-Host "You may repeat calculations ad infinitum so long as you enter 'y', 'Y', 'yes', 'Yes', 'YES', etc. when asked 'Do you wish to repeat this operation for a new date range? (Y/N)'"
+Write-Host "When 'n', 'N', 'no', 'No', 'NO', etc. is entered instead, the script asks if you wish to have your previous calculations for the current session totaled." 
 Write-Host "If 'yes' (or one of the aforementioned semantic equivalents) is entered, the total of all calculations obtained in the current session is given, after which the option to start a new session of calculations or exit the program displays; any other input here force-quits this shell window instantly."
 Write-Host "Sample Use Cases:"
 Write-Host "(i) Track and relay to a student how many days the FT CPT (Full-Time Curricular Practical Training) request which you've just authorized entails in your office's tailored CPT approval email."
